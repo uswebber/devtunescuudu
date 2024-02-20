@@ -1,0 +1,329 @@
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.allworkdiv{
+    background-color: rgb(255,249,242);
+    background-image: rgb(255,249,242); 
+}
+.navalone{
+    gap: 10%;
+    justify-content: space-between;
+    margin-left: 200px;
+    font-weight: bolder;
+}
+.headdownload{
+    position: relative;
+    left: -450px;
+    background-color: rgb(109,24,48);
+    color: white;
+    border: 3px solid rgb(109,24,48);
+    border-radius: 5px;
+    width: 182px;
+    height: 58px;
+}
+.contactimage{
+    width: 600px;
+    height: 580px;
+}
+.hero5{
+   background-color: rgb(20,57,76);
+   width: 100%;
+   height: auto;
+}
+.firstblog p{
+    margin-right: 400px;
+    font-size: 1.5rem;
+}
+.Featuredact{
+    color: rgb(109,24,48); 
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.real3d{
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid rgb(248,247,245);
+    border-radius: 20px;
+    width: 90%;
+    height: 50vh;
+    padding: 20px 0 0 10px;
+
+}
+.flyingfish{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+.nexticon{
+    gap: 4%;
+    display: flex;
+    margin-left: 200px;
+}
+.newslettersub{
+    display: flex;
+    background-color: rgb(109,24,48);
+    color: white;
+    width: 100%;
+    height: 20vh;
+    padding-top: 40px;
+    padding-left: 150px;
+}
+.newslettersub .inputbutton{
+margin-left: 200px;
+margin-top: 40px;
+}
+.newslettersub .inputbutton input{
+   width: 30vw;
+   height: 5vh;
+   border: 3px solid;
+   border-radius: 10px;
+    }
+.newslettersub .inputbutton button{
+    color: rgb(109,24,48);
+   height: 5vh;
+   border: 3px solid;
+   border-radius: 10px;
+    }
+.blogfooter{
+    display: flex;
+    gap: 2%;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+.downloadapp{
+    display: flex;
+    justify-content: right;
+   margin-top: -150px;
+   margin-right: 250px;
+}
+.fontimg{
+    width: 1410px;
+    height: 500px;
+   margin-left: 80px;
+    
+}
+.allfonttext{
+    margin-left: 150px;
+}
+.amaratappi{
+    justify-content: center;
+    display: flex;
+    background-color: rgb(255,249,242);
+    width: 80%;
+    margin-left: 100px;
+}
+.relatedarticles{
+    color: black; 
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flex ;
+}
+.relatedarticles img{
+    margin-left: 700px;
+}
+.newslettersubs{
+    display: flex;
+    background-color: rgb(109,24,48);
+    color: white;
+    width: 100%;
+    height: 20vh;
+    padding-top: 40px;
+    padding-left: 150px;
+    gap: 200px;
+}
+.inputbuttons input{
+    width: 400px;
+}
+.blogfooters{
+    display: flex;
+    gap: 2%;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+/* .downloadapps{
+    display: flex;
+    justify-content: right;
+   margin-top: -150px;
+   margin-right: 250px;
+} */
+.downloadapps{
+    display: flex;
+    justify-content: right;
+   margin-top: 10px;
+   margin-right: 200px;
+   background-color: white;
+   font-weight: bold;
+}
+.iconstermsss{
+    display: flex;
+}
+.iconstermsss .policys{
+    margin-left: 1700px;
+    margin-top: 50px;
+}
+.containers{
+    position: relative;
+    display: flex;
+    margin-left: 250px;
+ }
+@media screen and (min-width: 380px) and (max-width:768px){
+    body{
+        width: 90%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+
+    }
+    .navalone{
+        gap: 1%;
+        justify-content: space-between;
+        margin-left: 10px;
+        font-weight: bolder;
+        width: 80%;
+    }
+    .vieweverything{
+        visibility: hidden;
+    }
+    .hero5{
+        background-color: rgb(20,57,76);
+        width: auto;
+        height: 30vh;
+     }
+     .Featuredact{
+        color: rgb(109,24,48); 
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .real3d{
+        display: flex;
+        justify-content: space-around;
+        border: 3px solid rgb(248,247,245);
+        border-radius: 20px;
+        width: 90%;
+        height: 50vh;
+        padding: 20px 0 0 10px;
+    
+    }
+    .flyingfish{
+        display: block;
+        justify-content: start;
+        margin-left: 10px;
+    }
+    .nexticon{
+        gap: 4%;
+        display: flex;
+        margin-left: 10px;
+        visibility: hidden;
+
+    }
+    .newslettersub{
+        display: flex;
+        background-color: rgb(109,24,48);
+        color: white;
+        width: 100%;
+        height: 20vh;
+        padding-top: 40px;
+        padding-left: 150px;
+    }
+    .newslettersub .inputbutton{
+    margin-left: 200px;
+    margin-top: 40px;
+    }
+    .newslettersub .inputbutton input{
+       width: 30vw;
+       height: 5vh;
+       border: 3px solid;
+       border-radius: 10px;
+        }
+    .newslettersub .inputbutton button{
+        color: rgb(109,24,48);
+       height: 5vh;
+       border: 3px solid;
+       border-radius: 10px;
+        }
+    .blogfooter{
+        display: flex;
+        gap: 2%;
+        margin-left: 100px;
+        font-weight: bolder;
+    }
+    .downloadapp{
+        display: flex;
+        justify-content: right;
+       margin-top: -150px;
+       margin-right: 250px;
+    }
+    .fontimg{
+        width: 325px;
+        height: 240px;
+       margin-left: 20px;
+        
+    }
+    .allfonttext{
+        margin-left: 10px;
+    }
+    .amaratappi{
+        justify-content: center;
+        display: flex;
+        background-color: rgb(255,249,242);
+        width: 90%;
+        margin-left: 10px;
+        height: auto;
+    }
+    .relatedarticles{
+        color: black; 
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-left: 40px;
+        display: block ;
+    }
+    .relatedarticles img{
+        margin-left: 10px;
+    }
+    .newslettersubs{
+        display: block;
+        background-color: rgb(109,24,48);
+        color: white;
+        width: 97%;
+        height: 20vh;
+        padding-top: 5px;
+        padding-left: 10px;
+        gap: 200px;
+        font-size: 0.5rem;
+        position: relative;
+        top: 0vh;
+    }
+    .inputbuttons input{
+        width: 300px;
+        height: 3vh;
+    }
+    .downloadapps{
+        display: flex;
+        justify-content: left;
+       margin-top: 10px;
+       margin-left:30px;
+       background-color: white;
+       font-weight: bold;
+    }
+    .blogfooters{
+        display: flex;
+        gap: 2%;
+        margin-left: 40px;
+        font-weight: bolder;
+    }
+    .socialiconsss{
+        margin-top: -120px;
+        margin-left: 50px;
+    }
+    .iconstermsss{
+        display: block;
+    }
+    .iconstermsss .policys{
+        margin-left: 50px;
+        margin-top: -40px;
+    }
+}
+    

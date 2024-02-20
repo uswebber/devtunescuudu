@@ -1,0 +1,339 @@
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+}
+.allworkdiv{
+    background-color: rgb(255,249,242);
+    background-image: rgb(255,249,242); 
+}
+.navalone{
+    gap: 10%;
+    justify-content: space-between;
+    margin-left: 200px;
+    font-weight: bolder;
+}
+.headdownload{
+    position: relative;
+    left: -450px;
+    background-color: rgb(109,24,48);
+    color: white;
+    border: 3px solid rgb(109,24,48);
+    border-radius: 5px;
+    width: 182px;
+    height: 58px;
+}
+.contactimage{
+    width: 600px;
+    height: 580px;
+}
+.hero5{
+   background-color: rgb(20,57,76);
+   width: 100%;
+   height: auto;
+}
+.ourstory h1 p{
+    /* width: 20%; */
+}
+#ourstory{
+    display: flex;
+}
+.createacctpic{
+    width: 490px;
+    height: 563px;
+    position: relative;
+    bottom: 200px ;
+}
+.allourstory{
+    background-color: rgb(255,249,242);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+.yespix{
+    width: 280px;
+    height: 563px;
+    position: relative;
+    bottom: 50px;
+}
+.missionour{
+ width: 25%;
+ font-size: 25px;
+ color: white;
+ padding-top: 50px;
+}
+.yesmission{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(20,57,76);
+    gap: 50px;
+    width: 70%;
+    height: 40vh;
+    margin-left: 200px;
+}
+.divyesmission{
+    background-color: rgb(255, 249, 242);
+    width: 100%;
+    height: auto;
+}
+.divallfreeqssa{
+    background-color: rgb(255, 249, 242);
+    width: 100%;
+    height: auto;
+}
+.frequentasksa{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.frequentappsa{
+    width: 50%;
+    margin-left: 25% ;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.frequentasksa1 h3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.viewget{
+    display: flex;
+    background-color: rgb(20,57,76);
+    width: 100%;
+    height: auto;
+}
+.viewpix{
+    width: 608px;
+    height: 654px;
+}
+.getstarted{
+    font-size: 32px;
+    width: 30%;
+    margin-left: 450px;
+    margin-top: 150px;
+    color: white;
+}
+.data{
+    border: 1px solid rgb(193,199,201);
+    border-radius: 5px;
+}
+#aboutus{
+    background-color: rgb(255,249,242);
+    width: 100%;
+    height: auto;
+}
+.newslettersubsa{
+    display: flex;
+    background-color: rgb(109,24,48);
+    color: white;
+    width: 100%;
+    height: 20vh;
+    padding-top: 40px;
+    padding-left: 150px;
+    gap: 200px;
+}
+.inputbuttonsa input{
+    width: 400px;
+}
+.blogfootersa{
+    display: flex;
+    gap: 2%;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+/* .downloadapps{
+    display: flex;
+    justify-content: right;
+   margin-top: -150px;
+   margin-right: 250px;
+} */
+.downloadappsa{
+    display: flex;
+    justify-content: right;
+   margin-top: 10px;
+   margin-right: 200px;
+   background-color: white;
+   font-weight: bold;
+}
+.iconstermsssa{
+    display: flex;
+}
+.iconstermsssa .policysa{
+    margin-left: 1700px;
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 380px) and (max-width:768px){
+    body{
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+
+    }
+    .navalone{
+        gap: 1%;
+        justify-content: space-between;
+        margin-left: 10px;
+        font-weight: bolder;
+        width: 80%;
+    }
+    .vieweverythings{
+        visibility: hidden;
+    }
+    .hero5{
+        background-color: rgb(20,57,76);
+        width: auto;
+        height: 30vh;
+     }
+     .ourstory h1 p{
+        /* width: 20%; */
+    }
+    #ourstory{
+        display: block;
+    }
+    .createacctpic{
+        width: 325px;
+        height: 374px;
+        position: relative;
+        bottom: 10px ;
+    }
+    .allourstory{
+        background-color: rgb(255,249,242);
+        width: 100%;
+        height: auto;
+        display: block;
+        justify-content: center;
+        padding-top: 40px;
+        padding-left: 15px;
+    }
+    .yespix{
+        width: 327px;
+        height: 446px;
+        position: relative;
+        top: 170px;
+
+    }
+   .missionour{
+    width: 100%;
+    font-size: 17px;
+    color: white;
+    padding-top: 10px;
+    position: relative;
+    bottom: 400px ;
+    text-align: center;
+    }
+   .yesmission{
+    display: block;
+    justify-content: center;
+    background-color: rgb(20,57,76);
+    gap: 1px;
+    width: 100%;
+    height: auto;
+    margin-left: 1px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    }
+    .allfreeqssa{
+        width: 65%;
+    }
+    .frequentasksa{
+        display: flex;
+        justify-content: start;
+        font-size: 18px;
+        font-weight: 400;
+        margin-left: 20px;
+    
+    }
+    .frequentappsa{
+        width: 70%;
+        margin-left: 5% ;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .frequentasksa1 h3{
+        display: flex;
+        text-align: start;
+        justify-content: start;
+        font-size: 18px;
+        font-weight: 400;
+        margin-left: 20px;
+    }
+    .viewget{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: rgb(20,57,76);
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .viewpix{
+        width: 375px;
+        height: 404px;
+    }
+    .getstarted{
+        font-size: 32px;
+        width: 70%;
+        margin-left: 1px;
+        margin-top: 30px;
+        color: white;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .newslettersubsa{
+        display: block;
+        background-color: rgb(109,24,48);
+        color: white;
+        width: 97%;
+        height: 20vh;
+        padding-top: 5px;
+        padding-left: 10px;
+        gap: 200px;
+        font-size: 0.5rem;
+        position: relative;
+        top: 0vh;
+    }
+    .inputbuttonsa input{
+        width: 300px;
+        height: 3vh;
+    }
+    .downloadappsa{
+        display: flex;
+        justify-content: left;
+       margin-top: 10px;
+       margin-left:30px;
+       background-color: white;
+       font-weight: bold;
+    }
+    .blogfootersa{
+        display: flex;
+        gap: 2%;
+        margin-left: 40px;
+        font-weight: bolder;
+    }
+    .socialiconsssa{
+        margin-top: -120px;
+        margin-left: 50px;
+    }
+    .iconstermsssa{
+        display: block;
+    }
+    .iconstermsssa .policysa{
+        margin-left: 50px;
+        margin-top: -40px;
+    }
+
+}

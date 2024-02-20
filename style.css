@@ -1,0 +1,580 @@
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.navalone{
+    gap: 10%;
+    justify-content: space-between;
+    margin-left: 200px;
+    font-weight: bolder;
+}
+.headdownload{
+    position: relative;
+    left: -450px;
+    background-color: rgb(109,24,48);
+    color: white;
+    border: 3px solid rgb(109,24,48);
+    border-radius: 5px;
+    width: 182px;
+    height: 58px;
+}
+.downloadnowh{
+    border: 5px solid rgb(109,24,48);
+    border-radius: 5px;
+    background-color: rgb(109,24,48);
+    color: white;
+    padding: 10px 10px;
+}
+.righticons{
+    width: 253px;
+    height: 24px;
+}
+.viewredefine{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255,249,242);
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+}
+.housefone{
+    width: 588px;
+    height: 555px;
+}
+.divviewredefine{
+    width: 25%;
+}
+#clientspartner{
+    display: flex;
+    justify-content: center;
+}
+.powerof3d{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.inside3d{
+    width: 25%;
+    margin-top: 150px;
+}
+.viewhouse{
+    width: 488px;
+    height: 562px;
+}
+.powerof3dh{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.inside3dh{
+    width: 25%;
+    margin-top: 150px;
+}
+.viewhouseh{
+    width: 488px;
+    height: 562px;
+}
+.powerof3dhh{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.inside3dhh{
+    width: 25%;
+    margin-top: 150px;
+}
+.viewhousehh{
+    width: 488px;
+    height: 562px;
+}
+.yespixh{
+    width: 280px;
+    height: 563px;
+    position: relative;
+    bottom: 50px;
+}
+.missionourh{
+ width: 25%;
+ font-size: 25px;
+ color: white;
+ padding-top: 50px;
+}
+.yesmissionh{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(20,57,76);
+    gap: 50px;
+    width: 70%;
+    height: 40vh;
+    margin-left: 300px;
+
+}
+.divyesmissionh{
+    background-color: rgb(255, 249, 242);
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+}
+.downloadnerfh{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.variousarch{
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    background-color: white;
+    border: 5px solid rgb(109,24,48);
+    border-bottom: none;
+    border-left: none;
+    border-radius: 20px;
+    width: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 25%;
+}
+.industriesvarious{
+    width: 15%;
+}
+.thebest3d{
+    text-align: center;
+}
+.divvariousach{
+    text-align: start;
+    background-color: rgb(255,249,242);
+    width: 100%;
+    height: auto;
+}
+.interactiveseamless{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    background-color: rgb(255,249,242);
+    width: 100%;
+    height: auto;
+}
+.padlockviewpic{
+    width: 388px;
+    height: 388px;
+}
+.topnotch{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: white;
+    border: 5px solid rgb(109,24,48);
+    border-bottom: none;
+    border-left: none;
+    border-radius: 20px;
+    width: 40%;
+}
+.notchsecurity{
+    width: 40%;
+}
+.divtopnotch{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: rgb(255,249,242);
+    width: 100%;
+    height: auto;
+}
+.viewgeth{
+    display: flex;
+    background-color: rgb(20,57,76);
+    width: 100%;
+    height: auto;
+}
+.viewpixh{
+    width: 608px;
+    height: 654px;
+}
+.getstartedh{
+    font-size: 32px;
+    width: 30%;
+    margin-left: 450px;
+    margin-top: 150px;
+    color: white;
+}
+.rectangle58pic{
+    width: 589px;
+    height: 418px;
+}
+.easysimple{
+    width: 50%;
+}
+.alleasysimple{
+    display: flex;
+    justify-content: center;
+}
+.downloadappnowh{
+    border: 1px solid rgba(114, 136, 148, 1);
+    border-radius: 10px;
+    width: 488px;
+    height: auto;
+    padding: 20px, 5px;
+}
+.captureappnowh{
+    border: 1px solid rgba(114, 136, 148, 1);
+    border-radius: 10px;
+    width: 488px;
+    height: auto;
+    padding: 20px, 5px;
+}
+.projectnowh{
+    border: 1px solid rgba(114, 136, 148, 1);
+    border-radius: 10px;
+    width: 488px;
+    height: auto;
+    padding: 20px, 5px;
+}
+.downloadnowhp{
+    background-color:  rgb(109,24,48);
+    color: white;
+    border-radius: 5px;
+
+}
+#aboutus{
+    background-color: rgb(255,249,242);
+    width: 100%;
+    height: auto;
+}
+.newslettersubsa{
+    display: flex;
+    background-color: rgb(109,24,48);
+    color: white;
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-left: 150px;
+    gap: 200px;
+}
+.inputbuttonsah input{
+    width: 350px;
+    height: 3vh;
+}
+.blogfootersa{
+    display: flex;
+    gap: 2%;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+/* .downloadapps{
+    display: flex;
+    justify-content: right;
+   margin-top: -150px;
+   margin-right: 250px;
+} */
+.downloadappsa{
+    display: flex;
+    justify-content: right;
+   margin-top: 10px;
+   margin-right: 200px;
+   background-color: white;
+   font-weight: bold;
+}
+.iconstermsssa{
+    display: flex;
+}
+.iconstermsssa .policysa{
+    margin-left: 1700px;
+    margin-top: 50px;
+}
+
+ @media screen and (max-width: 380px) and (max-width:768px){
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .navalone{
+        gap: 10%;
+        justify-content: start;
+        margin-left: 10px;
+        font-weight: bolder;
+    }
+    .viewredefine{
+        display: block;
+        justify-content: start;
+        background-color: rgb(255,249,242);
+        padding-top: 100px;
+        width: 100%;
+        height: auto;
+    }
+    .housefone{
+        width: 324px;
+        height: 300px;
+    }
+    .divviewredefine{
+        width: 100%;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .clientspartner{
+    width: 375px;
+    height: 100px;
+    }
+    .powerof3d{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 0%;
+    }
+    .inside3d{
+        width: 100%;
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .viewhouse{
+        width: 327px;
+        height: 377px;
+    }
+    .powerof3dh{
+        display: block;
+        flex-direction:column;
+        justify-content: center;
+        gap: 0%;
+    }
+    .inside3dh{
+        width: 100%;
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .viewhouseh{
+        width: 327px;
+        height: 377px;
+    }
+    .powerof3dhh{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 0%;
+    }
+    .inside3dhh{
+        width: 100%;
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .viewhousehh{
+        width: 327px;
+        height: 377px;
+    }
+    .yespixh{
+        width: 327px;
+        height: 446px;
+        position: relative;
+        top: 200px;
+
+    }
+   .missionourh{
+    width: 100%;
+    font-size: 17px;
+    color: white;
+    padding-top: 10px;
+    position: relative;
+    bottom: 400px ;
+    text-align: center;
+    }
+   .yesmissionh{
+    display: block;
+    justify-content: center;
+    background-color: rgb(20,57,76);
+    gap: 1px;
+    width: 100%;
+    height: auto;
+    margin-left: 1px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    }
+    .downloadnerfh{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .variousarch{
+        display: block;
+        gap: 1%;
+        justify-content: start;
+        background-color: white;
+        border: 5px solid rgb(109,24,48);
+        border-bottom: none;
+        border-left: none;
+        border-radius: 20px;
+        width: 95%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-left: 10px;
+   
+    }
+    .industriesvarious{
+        width: 100%;
+    }
+    .pic4frames{
+        width: 295px;
+        height: 301px;
+    }
+    .thebest3d{
+        text-align: start;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .interactiveseamless{
+        display: block;
+        justify-content: start;
+        gap: 20px;
+        padding-top: 20px;
+        background-color: rgb(255,249,242);
+        width: 95%;
+        height: auto;
+        padding-left: 5px;
+        padding-right: 1px;
+    }
+    .interactivepic{
+        width: 320px;
+        height: 473px;
+    }
+    .seamlesspic{
+        padding-top: 20px;
+        width: 320px;
+        height: 473px;
+    }
+    .padlockviewpic{
+        width: 292px;
+        height: 292px;
+    }
+    .topnotch{
+        display: block;
+        justify-content: start;
+        padding-top: 50px;
+        background-color: white;
+        border: 5px solid rgb(109,24,48);
+        border-bottom: none;
+        border-left: none;
+        border-radius: 20px;
+        width: 95%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .notchsecurity{
+        width: 100%;
+    }
+    .divtopnotch{
+        display: block;
+        justify-content: start;
+        padding-top: 50px;
+        background-color: rgb(255,249,242);
+        width: 100%;
+        height: auto;
+        padding-left: 10px;
+    }
+    .viewgeth{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: rgb(20,57,76);
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .viewpixh{
+        width: 375px;
+        height: 404px;
+    }
+    .getstartedh{
+        font-size: 32px;
+        width: 70%;
+        margin-left: 1px;
+        margin-top: 30px;
+        color: white;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .rectangle58pic{
+        width: 327px;
+        height: 367px;
+    }
+    .easysimple{
+        width: 100%;
+    }
+    .alleasysimple{
+        display: block;
+        justify-content: center;
+    }
+    .downloadappnowh{
+        border: 1px solid rgba(114, 136, 148, 1);
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+        padding: 20px, 5px;
+    
+    }
+    .captureappnowh{
+        border: 1px solid rgba(114, 136, 148, 1);
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+        padding: 20px, 5px;
+    }
+    .projectnowh{
+        border: 1px solid rgba(114, 136, 148, 1);
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+        padding: 20px, 5px;
+    }
+    .newslettersubsa{
+        display: block;
+        background-color: rgb(109,24,48);
+        color: white;
+        width: 97%;
+        height: 20vh;
+        padding-top: 5px;
+        padding-left: 10px;
+        gap: 200px;
+        font-size: 0.5rem;
+        position: relative;
+        top: 0vh;
+    }
+    .inputbuttonsah input{
+        width: 300px;
+        height: 3vh;
+    }
+    .downloadappsa{
+        display: flex;
+        justify-content: left;
+       margin-top: 10px;
+       margin-left:30px;
+       background-color: white;
+       font-weight: bold;
+    }
+    .blogfootersa{
+        display: flex;
+        gap: 2%;
+        margin-left: 40px;
+        font-weight: bolder;
+    }
+    .socialiconsssa{
+        margin-top: -120px;
+        margin-left: 50px;
+    }
+    .iconstermsssa{
+        display: block;
+    }
+    .iconstermsssa .policysa{
+        margin-left: 50px;
+        margin-top: -40px;
+    }
+             
+}
+
+    
+
+    
+

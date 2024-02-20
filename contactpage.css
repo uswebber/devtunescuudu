@@ -1,0 +1,365 @@
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.allworkdiv{
+    background-color: rgb(255,249,242);
+    background-image: rgb(255,249,242); 
+}
+.navalone{
+    gap: 10%;
+    justify-content: space-between;
+    margin-left: 200px;
+    font-weight: bolder;
+}
+.headdownload{
+    position: relative;
+    left: -450px;
+    background-color: rgb(109,24,48);
+    color: white;
+    border: 3px solid rgb(109,24,48);
+    border-radius: 5px;
+    width: 182px;
+    height: 58px;
+}
+.contactimage{
+    width: 600px;
+    height: 580px;
+}
+.hero5{
+   background-color: rgb(20,57,76);
+   width: 100%;
+   height: auto;
+}
+.fullname{
+width: 294px;
+height: 45px;
+padding: 16px;
+border: 1px solid rgba(227, 235, 235, 1);
+border-radius: 4px;
+gap: 8px;
+}
+.emailaddress{
+width: 294px;
+height: 45px;
+padding: 16px;
+border: 1px solid rgba(227, 235, 235, 1);
+border-radius: 4px;
+gap: 8px;
+}
+.message{
+width:  600px;
+height: 100px;
+padding: 12px, 16px, 12px, 16px;
+border-radius: 4px;
+border: 1px solid rgba(227, 235, 235, 1);
+gap: 8px;
+}
+.nameemail{
+    display: flex;
+    gap: 2%;
+}
+.submit{
+    border: 1px solid rgb(109,24,48);
+    width: 85px;
+    height: 30px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: white;
+    background-color: rgb(109,24,48);
+}
+.allnameemail{
+    display: flex;
+    justify-content: center;
+    margin-top: -450px;
+}
+.prefersection{
+    margin-top: 200px;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.allprefersection{
+    background-color: rgb(255,249,242);
+    width: 100%;
+    height: auto;
+}
+.data{
+    border: 2px solid rgba(227, 235, 235, 1);
+    border-radius: 10px;
+    background-color: rgb(255,249,242);
+    gap: 21px;
+    padding: 28px;
+    width: 385px;
+    height: 333px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    font-weight: bold;
+}
+.frequentasks{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.frequentapps{
+    width: 50%;
+    margin-left: 25% ;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.frequentasks1 h3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.redefineimage{
+    height: 654px;
+    width: 607px;
+}
+.immersive3d{
+    position: relative;
+    left: 40vw;
+    bottom: 40vh;
+}
+.divimmersive3d{
+    width: 30%;
+}
+.immersive3dall{
+    background-color: rgb(20,57,76);
+    color: white;
+}
+.download2now{
+    border: 3px solid ;
+    width: 182px;
+    height: 58px;
+}
+.newslettersubs{
+    display: flex;
+    background-color: rgb(109,24,48);
+    color: white;
+    width: 100%;
+    height: 20vh;
+    padding-top: 40px;
+    padding-left: 150px;
+    gap: 200px;
+}
+.inputbuttons input{
+    width: 400px;
+}
+.blogfooters{
+    display: flex;
+    gap: 2%;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+.downloadapps{
+    display: flex;
+    justify-content: right;
+   margin-top: -150px;
+   margin-right: 250px;
+}
+.downloadapps{
+    display: flex;
+    justify-content: right;
+   margin-top: 10px;
+   margin-right: 200px;
+   background-color: white;
+   font-weight: bold;
+}
+.iconstermss{
+    display: flex;
+}
+.iconstermss .policys{
+    margin-left: 1700px;
+    margin-top: 50px;
+}
+.containers{
+    position: relative;
+    display: flex;
+    margin-left: 250px;
+ }
+
+@media screen and (min-width: 380px) and (max-width:768px){
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 100%; important: !important;
+    }
+    .vieweverything{
+        visibility: hidden;
+    }
+    .hero5{
+        background-color: rgb(20,57,76);
+        width: auto;
+        height: 45vh;
+     }
+
+    .redefineimage{
+        width: 375px;
+        height: 404.04px;
+    }
+    .fullname{
+        width: 327px;
+        height: 45px;
+        padding: 16px;
+        border: 1px solid rgba(227, 235, 235, 1);
+        border-radius: 4px;
+        gap: 1px;
+        }
+        .emailaddress{
+        width: 327px;
+        height: 45px;
+        padding: 16px;
+        border: 1px solid rgba(227, 235, 235, 1);
+        border-radius: 4px;
+        gap: 1px;
+        }
+        .message{
+        width:  327px;
+        height: 100px;
+        padding: 12px, 16px, 12px, 16px;
+        border-radius: 4px;
+        border: 1px solid rgba(227, 235, 235, 1);
+        gap: 1px;
+        font-size: 12px;
+    }
+    .prefersection{
+        margin-top: 10px;
+        font-size: 45px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .data{
+    border: 2px solid rgba(227, 235, 235, 1);
+     border-radius: 10px;
+     background-color: rgb(255,249,242);
+     gap: 10px;
+     padding: 28px;
+     width: 329px;
+     height: 295px;
+     font-size: 12px;
+     font-weight: 400;
+     text-align: center;
+     font-weight: bold;
+    }
+    .container{
+       position: relative;
+       right: 15px;
+    }
+    .containers{
+        position: relative;
+        display: flex;
+        margin-left: 10px;
+     }
+    .frequentasks{
+        display: flex;
+        justify-content: start;
+        font-size: 18px;
+        font-weight: 400;
+        margin-left: 20px;
+    
+    }
+    .frequentapps{
+        width: 70%;
+        margin-left: 5% ;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .allfreeqs{
+        width: 65%;
+    }
+    .frequentasks1 h3{
+        display: flex;
+        text-align: start;
+        justify-content: start;
+        font-size: 18px;
+        font-weight: 400;
+        margin-left: 20px;
+    }
+
+    .nameemail{
+        display: block;
+        gap: 2%;
+    }
+    .contactimage{
+        width: 600px;
+        height: 580px;
+        visibility: hidden;
+    }
+    .allnameemail{
+        display: flex;
+        justify-content: center;
+        margin-top: -470px;
+    }
+    .immersive3d{
+        position: relative;
+        left: 0vw;
+        top: 1vh;
+        padding: 35px;
+        background-color: rgb(20,57,76);
+        color: white;
+        height: auto;
+        width: 375px;
+        align-items: center;
+    }
+    .immersive3dall{
+        background-color: rgb(20,57,76);
+        color: white;
+        height: 766px;
+        width: 375px;  
+    }
+    .divimmersive3d{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .divimmersive3d h3{
+        font-size: 15px;
+    }
+    .download2now{
+        border: 3px solid ;
+        width: 182px;
+        height: 58px;
+    }
+    .newslettersubs{
+        display: block;
+        background-color: rgb(109,24,48);
+        color: white;
+        width: 97%;
+        height: 20vh;
+        padding-top: 5px;
+        padding-left: 10px;
+        gap: 200px;
+        font-size: 0.5rem;
+        position: relative;
+        top: 0vh;
+    }
+    .inputbuttons input{
+        width: 300px;
+        height: 3vh;
+    }
+    .blogfooters{
+        display: flex;
+        gap: 2%;
+        margin-left: 40px;
+        font-weight: bolder;
+    }
+    .socialiconss{
+        margin-top: -120px;
+        margin-left: 50px;
+    }
+    .iconstermss{
+        display: block;
+    }
+    .iconstermss .policys{
+        margin-left: 50px;
+        margin-top: -40px;
+    }
+
+}

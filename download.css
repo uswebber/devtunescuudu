@@ -1,0 +1,241 @@
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.allworkdiv{
+    background-color: rgb(255,249,242);
+    background-image: rgb(255,249,242); 
+}
+.navalone{
+    gap: 10%;
+    justify-content: space-between;
+    margin-left: 200px;
+    font-weight: bolder;
+}
+.headdownload{
+    position: relative;
+    left: -450px;
+    background-color: rgb(109,24,48);
+    color: white;
+    border: 3px solid rgb(109,24,48);
+    border-radius: 5px;
+    width: 182px;
+    height: 58px;
+}
+.hero5{
+   background-color: rgb(20,57,76);
+   width: auto;
+   height: auto;
+}
+.android{
+   border: 1px solid rgba(215, 209, 202, 1);
+   border-radius: 10px;
+ }
+.ios{
+    border: 1px solid rgba(215, 209, 202, 1);
+    border-radius: 10px;
+}
+.bothandriodios{
+    gap: px;
+}
+        /* .bothandriodios{
+            gap: %;
+        } */
+/* .kindlym{
+    margin-top: 50px;
+    margin-left: 150px;
+    background-color: rgb(20,57,76);
+    color: white;
+    width: 80%;
+
+}
+.kindlym div{
+   padding-left: 50px;
+   padding-right: 50px;
+
+}
+.frameq {
+   margin-left: 50%;
+} */
+
+.kindlym{
+
+    background-color: rgb(20,57,76);
+    color: white;
+    width: 100%;
+}
+.kindlymall{
+ display: flex;
+ text-align: center;
+ padding: 300px ;
+
+}
+.makesure{
+    width: 80%;
+    text-align: center;
+    padding-left: 350px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.frameq{
+    position: relative;
+    top: 60px;
+}
+
+.frequentask{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.frequentapp{
+    width: 50%;
+    margin-left: 25% ;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.frequentask1 h3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.newslettersub{
+    display: flex;
+    background-color: rgb(109,24,48);
+    color: white;
+    width: 100%;
+    height: 20vh;
+    padding-top: 40px;
+    padding-left: 150px;
+    gap: 200px;
+}
+.inputbutton input{
+    width: 400px;
+}
+.blogfooter{
+    display: flex;
+    gap: 2%;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+.downloadapp{
+    display: flex;
+    justify-content: right;
+   margin-top: -150px;
+   margin-right: 250px;
+}
+.socialicons{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.iconsterms{
+    display: flex;
+}
+.iconsterms .policy{
+    margin-left: 1600px;
+    margin-top: 90px;
+}
+.redefines{
+    width: 65%;
+}
+@media screen and (min-width: 380px) and (max-width:768px){
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .frequentask1 h3{
+        display: flex;
+        text-align: start;
+        justify-content: start;
+        font-size: 15px;
+    }
+    .frequentask{
+        display: flex;
+        justify-content: start;
+        font-size: 15px;
+    }
+    .frequentapp{
+        width: 80%;
+        margin-left: 10px ;
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    hr{
+        visibility: auto;
+    }
+    .allfreeq{
+        margin-left: 10px;
+    }
+    .vieweverything{
+        visibility: hidden;
+    }
+    .newslettersub{
+        display: block;
+        background-color: rgb(109,24,48);
+        color: white;
+        width: 100%;
+        height: 20vh;
+        padding-top: 5px;
+        padding-left: 10px;
+        gap: 200px;
+        font-size: 0.5rem;
+    }
+    .inputbutton input{
+        width: 300px;
+        height: 3vh;
+    }
+    .downloadapp{
+        display: flex;
+        justify-content: right;
+       margin-top: 10px;
+       margin-right: 200px;
+       background-color: white;
+       font-weight: bold;
+    }
+    .blogfooter{
+        display: flex;
+        gap: 2%;
+        margin-left: 50px;
+        font-weight: bolder;
+    }
+    .iconsterms{
+        display: block;
+    }
+    .iconsterms .policy{
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .socialicons{
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.kindlymall{
+    display: flex;
+    text-align: center;
+    padding: 1px ;
+   
+   }
+   .makesure{
+    width: 80%;
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.android{
+border: 1px solid rgba(215, 209, 202, 1);
+border-radius: 10px;
+}
+.ios{
+    border: 1px solid rgba(215, 209, 202, 1);
+    border-radius: 10px;
+}
+.bothandriodios{
+  gap: 1%;
+}
+    
+}       
