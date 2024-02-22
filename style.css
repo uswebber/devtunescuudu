@@ -1,6 +1,7 @@
 body{
     overflow-x: hidden;
     overflow-y: scroll;
+    width: 100%;
 }
 .navalone{
     gap: 10%;
@@ -48,6 +49,10 @@ body{
     display: flex;
     justify-content: center;
 }
+.clientspartner{
+    width: 996px;
+    height: 180px;
+    }
 .powerof3d{
     display: flex;
     justify-content: center;
@@ -60,6 +65,10 @@ body{
 .viewhouse{
     width: 488px;
     height: 562px;
+}
+.markicon{
+    width: 20px;
+    height: 20px;
 }
 .powerof3dh{
     display: flex;
@@ -145,6 +154,10 @@ body{
     width: 100%;
     height: auto;
 }
+.pic4frames{
+    width: 388px;
+    height: 388px;
+}
 .interactiveseamless{
     display: flex;
     justify-content: center;
@@ -154,9 +167,21 @@ body{
     width: 100%;
     height: auto;
 }
+.interactivepic{
+    width: 488px;
+    height: 588px;
+}
+.seamlesspic{
+    width: 488px;
+    height: 588px;
+}
 .padlockviewpic{
     width: 388px;
     height: 388px;
+}
+.icloudpix{
+    width: 40px;
+    height: 40px;
 }
 .topnotch{
     display: flex;
@@ -281,11 +306,29 @@ body{
     margin-left: 1700px;
     margin-top: 50px;
 }
+.clientpics{
+    width: 347px;
+    height: 48px;
+}
+.footerheaderpix{
+    width: 37px;
+    height: 30px;
+}
+.googleplaypic{
+    width: 148px;
+    height: 44px;
+}
+.socialiconsssa{
+    width: 144px;
+    height: 25px;
+}
 
  @media screen and (max-width: 380px) and (max-width:768px){
     body{
         overflow-x: hidden;
         overflow-y: scroll;
+        width: 100%;
+        z-index: 0px;
     }
     .navalone{
         gap: 10%;
@@ -563,6 +606,8 @@ body{
     .socialiconsssa{
         margin-top: -120px;
         margin-left: 50px;
+        width: 144px;
+        height: 24px;
     }
     .iconstermsssa{
         display: block;
@@ -570,6 +615,22 @@ body{
     .iconstermsssa .policysa{
         margin-left: 50px;
         margin-top: -40px;
+    }
+    .markicon{
+        width: 20px;
+        height: 20px;
+    }
+    .clientpics{
+        width: 285px;
+        height: 46px;
+    }
+    .footerheaderpix{
+        width: 37px;
+        height: 30px;
+    }
+    .googleplaypic{
+        width: 148px;
+        height: 44px;
     }
              
 }
